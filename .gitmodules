@@ -1,0 +1,12 @@
+[submodule "robocup_pepper-hri_js"]
+	path = robocup_pepper-hri_js
+	url = https://gitlab.com/Elyspio/robocup_pepper-hri_js
+	branch = master
+[submodule "robocup_pepper-hri_python"]
+	path = robocup_pepper-hri_python
+	url = https://gitlab.com/Elyspio/robocup_pepper-hri_python
+	branch = master
+[submodule "robocup_pepper-hri_tools"]
+	path = robocup_pepper-hri_tools
+	url = https://gitlab.com/Elyspio/robocup_pepper-hri_tools
+	branch = master
