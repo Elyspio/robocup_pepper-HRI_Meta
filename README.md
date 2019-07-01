@@ -1,4 +1,4 @@
-#Pepper IHR
+# Pepper IHR
 
 Pepper IHR is a vocal and graphical interface for Pepper robot used at the RoboCup@Home 2019.
 
