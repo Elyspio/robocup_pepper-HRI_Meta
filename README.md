@@ -2,23 +2,15 @@
 
 Pepper IHR is a vocal and graphical interface for Pepper robot used at the RoboCup@Home 2019.
 
-It uses [React](https://reactjs.org/) for the GUI and `QiChat` for the vocal interface. 
+It uses [React](https://reactjs.org/) for the GUI and [QiChat](http://doc.aldebaran.com/2-5/naoqi/interaction/dialog/aldialog_syntax_overview.html) for the vocal interface. 
 
-Pepper's tablet run a modified Chromium version 35 which doesn't understand ECMA 2016+ so we use [Babel](https://babeljs.io/) to make JavaScript undestandable by Pepper. 
+## Build
+Only JS part needs to be built, see [HRI-JS](https://gitlab.com/Elyspio/robocup_pepper-hri_js) repo for more informations.
 
-#Quick Start
-This project uses [Yarn](https://yarnpkg.com/en/docs/install) as dependency manager.
+## Deploy 
+Run `deploy.sh` <IP of Pepper> 
 
-First clone the project and install dependencies:
-`git clone https://gitlab.com/Elyspio/pepper PepperIHR`
-`cd PepperIHR`
-`yarn install`
+## Start
 
+To start HRI, run `local_manager.py` in [HRI-Python](https://gitlab.com/Elyspio/robocup_pepper-hri_python) repo.
 
-
-
-The entry point of the project is `localManager.py`
-
-Then you can run the project with:
-- Development : `yarn start`
-- Production : `yarn build`
